@@ -10,7 +10,7 @@ class Success<T> extends SafeResult<T> {
   Success(this.value);
 
   @override
-  B fold<B>(Function(T value) onSuccess, Function(Exception exception) onFailure) =>
+  B fold<B>(onSuccess(T value), onFailure(Exception exception)) =>
       onSuccess(value);
 }
 
@@ -20,7 +20,7 @@ class Failure<T> extends SafeResult<T> {
   Failure(this.exception);
 
   @override
-  B fold<B>(Function(T value) onSuccess, Function(Exception exception) onFailure) {
+  B fold<B>(onSuccess(T value), onFailure(Exception exception)) {
     print(exception); // TODO: remove this
     return onFailure(exception);
   }
