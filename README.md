@@ -1,16 +1,18 @@
-# notepad_app
+# OSSE Assignment Group 4
 
-A new Flutter project.
+<h1 align="center">Welcome to flutter-notes-app with firebase👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-v1.0.8-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> This is a flutter based notes application. The application uses firebase for data storage and authentication of users. For this release we support only android and web platform. The support for iOS will come in future.
+	  
+## Group Members:
+| Name           | Bits Roll No.     | Bits Mail ID                             | GitHub ID |
+| -------------- | ----------------- | ---------------------------------------- | -------------- |
+|Praveen Kumar	     |  2020sp93055      |   2020sp93055@wilp.bits-pilani.ac.in     |   praveenkr3187 |
+|Nikhil Patra  |   2020sp93052     |     2020sp93052@wilp.bits-pilani.ac.in   |     NikhilPatra0407 |
+|Snehil Arya     |   2020sp93059     |     2020sp93059@wilp.bits-pilani.ac.in   |     snehilarya |
